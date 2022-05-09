@@ -19,3 +19,24 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: first_dimension
+    columns:
+      - name: external_id
+        tests:
+          - unique
+          - not_null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
