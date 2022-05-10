@@ -1,0 +1,14 @@
+testing_project:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 4
+      host: prd-eu-bi-db-01.sisu.sh
+      port: 5432
+      user: _user_      # this will be substituted during build time
+      pass: _password_  # this will be substituted during build time
+      dbname: data_intelligence_system
+      schema: dev_schema
+
+  target: dev
